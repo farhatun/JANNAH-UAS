@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".ListView"
+    android:background="#F76854"
+    android:layout_centerInParent="true">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/logoo" />
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_rukun_islam"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Rukun Islam"-->
+<!--        android:layout_centerInParent="true" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_rukun_iman"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Rukun Iman"-->
+<!--        android:layout_below="@+id/btn_rukun_islam"-->
+<!--        android:layout_centerInParent="true"/>-->
+
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_height="wrap_content"
+        android:divider="#E5F2FC"
+        android:dividerHeight="10dp"
+        android:layout_margin="20dp"
+        android:layout_centerInParent="true">
+
+    </ListView>
+
+</RelativeLayout>

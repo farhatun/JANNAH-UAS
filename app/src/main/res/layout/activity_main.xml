@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+	<ImageView
+		android:id="@+id/imageView"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:scaleType="centerCrop"
+		app:srcCompat="@drawable/logoo" />
+
+	<Button
+		android:id="@+id/btn_move_shalat_app"
+		android:layout_width="wrap_content"
+		android:layout_height="50dp"
+		android:text="jadwal Sholat"
+		android:textColor="#ffffff"
+		android:textAlignment="center"
+		android:layout_centerHorizontal="true"
+		android:background="@drawable/btn_kiblat"
+		android:layout_marginBottom="@dimen/activity_vertical_margin"
+		android:layout_marginTop="200dp"
+		android:textSize="20dp"/>
+
+	<Button
+		android:id="@+id/btn_move_halal_app"
+		android:layout_width="wrap_content"
+		android:layout_height="50dp"
+		android:text="Dzikir Pagi"
+		android:layout_centerInParent="true"
+		android:layout_below="@id/btn_move_shalat_app"
+		android:textColor="#ffffff"
+		android:textAlignment="center"
+		android:background="@drawable/btn_kiblat"
+		android:layout_marginBottom="@dimen/activity_vertical_margin"
+		android:textSize="20dp"/>
+
+	<Button
+		android:id="@+id/btn_move_kiblat_app"
+		android:layout_width="wrap_content"
+		android:layout_height="50dp"
+		android:text="arah Kiblat"
+		android:layout_centerInParent="true"
+		android:layout_below="@id/btn_move_halal_app"
+		android:textColor="#ffffff"
+		android:textAlignment="center"
+		android:background="@drawable/btn_kiblat"
+		android:layout_marginBottom="16dp"
+		android:textSize="20dp"/>
+
+	<Button
+		android:id="@+id/doa"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="dasar islam"
+		android:textColor="#ffffff"
+		android:layout_centerInParent="true"
+		android:layout_below="@id/btn_move_kiblat_app"
+		android:textAlignment="center"
+		android:background="@drawable/btn_kiblat"
+		android:layout_marginBottom="30dp"
+		android:textSize="20dp"/>
+
+	<Button
+		android:id="@+id/subscribe"
+		android:layout_width="wrap_content"
+		android:layout_height="50dp"
+		android:text="subscribe"
+		android:layout_below="@id/doa"
+		android:textColor="#ffffff"
+		android:layout_centerInParent="true"
+		android:textAlignment="center"
+		android:background="#001432"
+		android:layout_marginBottom="50dp"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:layout_gravity="top"
+		android:layout_marginTop="20dp"
+		android:layout_marginRight="20dp"
+		android:textSize="10dp"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Created by farha"
+		android:layout_below="@id/doa"
+		android:textStyle="italic"
+		android:textAlignment="center" />
+
+</RelativeLayout>

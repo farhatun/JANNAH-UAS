@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.farhatun.islamku">
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/islamicapps"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.farhatun.islamku.KiblatApp" />
+        <activity android:name="com.farhatun.islamku.CompassActivity"
+            android:label="Kiblat"/>
+        <activity android:name="com.farhatun.islamku.HalalApp"
+            android:label="Dzikir Pagi"/>
+        <activity android:name="com.farhatun.islamku.ShalatApp"
+            android:label="Jadwal Shalat"/>
+        <activity android:name="com.farhatun.islamku.ListView"
+            android:label="Dasar Islam"/>
+        <activity android:name="com.farhatun.islamku.rukuniman"
+            android:label="Rukun Iman"/>
+        <activity android:name="com.farhatun.islamku.rukunislam"
+            android:label="Rukun Islam"/>
+        <activity android:name="com.farhatun.islamku.malaikat"
+            android:label="Nama Malaikat"/>
+        <activity android:name="com.farhatun.islamku.nabi"
+            android:label="Nama Nabi"/>
+        <activity android:name="com.farhatun.islamku.subscribe"
+            android:label="Subscribe"/>
+        <activity android:name="com.farhatun.islamku.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

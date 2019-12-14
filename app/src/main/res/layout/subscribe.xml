@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@drawable/logoo">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBSCRIBE"
+        android:background="#000000"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+<EditText
+    android:id="@+id/nama_field"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Nama"
+    android:inputType="textCapWords"
+    android:layout_marginTop="50dp"/>
+
+<EditText
+    android:id="@+id/nomor_field"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Email"
+    android:inputType="textCapWords" />
+
+<EditText
+    android:id="@+id/komentar_field"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Keterangan"
+    android:inputType="textCapWords" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Kirim"
+    android:textAllCaps="true"
+    android:onClick="submitOrder"
+    android:layout_marginTop="50dp"
+    android:background="@color/colorAccent"
+    android:textColor="#FFFF"
+    android:textSize="20sp"
+    android:textStyle="bold"/>
+
+
+</LinearLayout>
